@@ -1,5 +1,5 @@
 // Your code here...
-int main() {
+void main() {
     int a;
 
     
@@ -17,10 +17,12 @@ int main() {
     }
     else if(a>=60 && a<70){
         printf("D");
-    }else{printf("F");}
+    
+    }
+    else
+    {printf("F");}
         
         
 
 
-    return 0;
 }
