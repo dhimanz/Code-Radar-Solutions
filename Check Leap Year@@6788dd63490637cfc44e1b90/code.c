@@ -6,11 +6,11 @@ void main(){
     if(a%4==0){
         printf("Leap Year");
     }
-    else if(a%400==0){
-        printf("Leap Year");
-    }
     else if(a%100==0){
         printf("Not a Leap Year");
+    }
+    else if(a%400==0){
+        printf("Leap Year");
     }
     else{
         printf("Not a Leap Year");
