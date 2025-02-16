@@ -1,4 +1,5 @@
 // Your code here...
+#include <stdio.h>
 void main() {
     int a;
 
@@ -20,7 +21,9 @@ void main() {
     
     }
     else
-    {printf("F");}
+    {
+        printf("F");
+        }
         
         
 
