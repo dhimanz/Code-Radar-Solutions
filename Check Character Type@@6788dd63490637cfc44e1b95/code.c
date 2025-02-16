@@ -16,7 +16,7 @@ int main() {
     else if(isdigit(a)){
         printf("Digital");
     else {
-        printf("Special")
+        printf("Special");
     }    
     }
     
