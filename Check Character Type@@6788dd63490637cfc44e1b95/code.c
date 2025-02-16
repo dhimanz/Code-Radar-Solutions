@@ -14,11 +14,11 @@ int main() {
         printf("Consonant");
     }
     else if(isdigit(a)){
-        printf("Digital");
+        printf("Digital");}
     else {
         printf("Special");
     }    
-    }
+    
     
     
     
