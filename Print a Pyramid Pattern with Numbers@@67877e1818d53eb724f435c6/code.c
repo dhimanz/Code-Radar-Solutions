@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    printf("Enter the number of rows for the pyramid: ");
+   
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
