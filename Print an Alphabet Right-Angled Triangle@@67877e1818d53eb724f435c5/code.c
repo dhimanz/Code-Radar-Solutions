@@ -3,14 +3,14 @@
 
 int main() {
     int n;
-    printf("Enter the number of rows: ");
+ 
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {  // Loop for rows (starting from n)
-        for (int j = 1; j <= i; j++) {  // Print numbers from 1 to i
-            printf("%c", j);
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {  
+            printf("%c",'a'+j-1);
         }
-        printf("\n");  // New line after each row
+        printf("\n");  
     }
 
     return 0;
